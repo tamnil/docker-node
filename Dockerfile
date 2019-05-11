@@ -1,4 +1,4 @@
-FROM node:10
+FROM node
 
 RUN adduser tamnil
 RUN usermod -a -G www-data tamnil
